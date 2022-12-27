@@ -20,7 +20,7 @@ object ObjectOrientation extends App {
   }
 
   val aDog =new Dog("Rosie")
-  aDog.eat
+  aDog.eat()
   //constructor arguments are NOT fields: need to put a val before the constructor argument
   aDog.name
 
