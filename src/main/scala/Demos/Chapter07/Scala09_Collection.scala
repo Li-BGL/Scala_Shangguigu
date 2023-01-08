@@ -4,29 +4,37 @@ import scala.collection.mutable
 
 object Scala09_Collection extends App {
 
-  //todo 集合-Tuple
-  // 如果元组中的元素数量为2，那么称之为对偶元组，也称之为键值对对象
-  val t1 = ("a",1)
-  val t2 = ("b",2)
-
-  private val tuple: (String, Int) = "a" -> 2 //箭头表示形成元组
-  //1->2->3->4: (((1,2),3),4)
-
-  //println(Map)
+  //todo 集合
 
 
-  //todo Map集合的操作有了变化
-  val map = Map (
+  //todo:list=> Array,Set
+  val list= List(1,2,1,2)
+  val array: Array[Int] = list.toArray
+  val set: Set[Int] = list.toSet
+
+  println(array.mkString(","))
+  println(set)
+
+  //Todo Set=> Array,List
+  val set2 = Set(1,2,3,4)
+  val array1: Array[Int] = set2.toArray
+  val list1: List[Int] = set2.toList
+  println(array1.mkString(","))
+  println(list1)
+  println(set2)
+
+  //todo Map
+  val map = Map(
     ("a",1),("b",2),("c",3)
   )
-//  println(map)
-  for (kv<- map) {
-    println(kv._1 + "=" +kv._2)
-  }
+  val array2: Array[(String, Int)] = map.toArray
+  val list2: List[(String, Int)] = map.toList
+  val set1: Set[(String, Int)] = map.toSet
+  println(array2.mkString(","))
+  println(list2)
+  println(set1)
 
 
-
-  
 
 
 

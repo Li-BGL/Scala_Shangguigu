@@ -1,0 +1,16 @@
+List(
+("Jayden","Melbourne", "Shoe"),
+("Leon","Melbourne", "Clothes"),
+("Henry","Melbourne", "Shoe"),
+("Jayden","Sydney", "Hat"),
+("Leon","Sydney", "Shoe"),
+("Henry","Sydney", "Clothes"),
+("Jayden","Sydney", "Shoe"),
+("Leon","Melbourne", "Hat"),
+("Henry","Sydney", "Clothes"),
+("Jayden","Melbourne", "Shoe"),
+("Leon","Sydney", "Clothes"),
+("Henry","Melbourne", "Hat"),
+("Jayden","Sydney", "Shoe"),
+("Leon","Melbourne", "Hat"),
+)
